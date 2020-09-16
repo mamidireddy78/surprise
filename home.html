@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>BIRTHDAY WISHES</title>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mydiv1">
+        <img id="img3" class="img-fluid img-responsive" src="img3.jpg" alt="" height="50%" width="100%">
+        <img id="img2" class="img-fluid img-responsive" src="img2.jpg" alt="" height="50%" width="100%">
+    </div>
+    <div id="div1" class="Container jumbotron mydiv">
+    <div>
+        <img class="img-responsive img-fluid" src="emoji1.jpg" alt="">
+    </div>
+    </div>
+    <div id="div2" class="container jumbotron mydiv2">
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function()
+    {
+      $("#img3").click(function()
+      {
+       
+       $("#img3").slideUp(3000);
+       $("#img2").slideDown(4000);
+     
+
+      });
+   
+     $("#img2").click(function()
+     {
+    
+     $("#img2").fadeOut(3000);
+    $("#div1").append("<h1>Wishing u a very happie Birthday <mark>NAGINI Fllw</mark>....I wish u to celebrate a many more birthdays happiely and should give treat to me ....haha....many people will come into our lives but only few people will be with us for life-long...so i dont want to be as a first friend to u.. indeed  i want to travel with u for life-long...so Iam being as a last person to wish ur birthday nd also i wish  to be as a last person to wish to ur all birthdays till the end of my life....keep smiling....</h1>");
+     
+     });
+
+    $("#div1").click(function()
+    {
+        $("#div1").fadeOut(3000);
+        $("#img3").slideDown(4000);
+
+    });
+
+    });
+</script>
+
+</html>

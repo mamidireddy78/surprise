@@ -1,0 +1,16 @@
+.mydiv
+{
+    font-family: 'Courgette', cursive;
+    text-align:center;
+    color: teal;
+    margin-top:40px;
+    margin-left:40px;
+    margin-right:40px;
+    border:20px solid gray;
+
+}
+.mydiv1
+{
+    border-color: rgb(100, 164, 184);
+    border:20px solid;
+}
